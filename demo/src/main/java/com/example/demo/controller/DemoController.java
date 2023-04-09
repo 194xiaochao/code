@@ -11,4 +11,9 @@ public class DemoController {
         return "获取成功";
     }
 
+    @GetMapping("/getAll")
+    public String getStrs() {
+        return "获取所有数据";
+    }
+
 }
