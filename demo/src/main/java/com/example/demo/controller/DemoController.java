@@ -13,8 +13,7 @@ public class DemoController {
 
     @GetMapping("/getAll")
     public String getStrs() {
-        return "获取所sdfdsfsfdsfsfsdfdsfsdfdsfsdfsdgfdhhgfhjgfjhjghkjgfkghjshgdshgfdhgbfgjhfdj" +
-                "有数据";
+        return "获取所有getall数据";
     }
 
 }
